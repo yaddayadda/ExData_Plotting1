@@ -44,7 +44,9 @@ plot1<-function()
 	dev.off()
 }
 
+# Plot figure 1
 plot1()
+
 message(paste0("figure plot1.png written in directory : ",getwd()))
 
 
